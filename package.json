@@ -21,9 +21,12 @@
     "url": "https://github.com/angular/material2/issues"
   },
   "homepage": "https://github.com/angular/material2#readme",
-  "peerDependencies": {
-    "@angular/core": "^4.0.0",
-    "@angular/common": "^4.0.0",
-    "@angular/http": "^4.0.0"
+  "jspm": {
+    "dependencies": {
+      "@angular/animations": "npm:@angular/animations@^4.0.0",
+      "@angular/core": "npm:@angular/core@^4.0.0",
+      "@angular/common": "npm:@angular/common@^4.0.0",
+      "@angular/http": "npm:@angular/http@^4.0.0"
+    }
   }
 }
